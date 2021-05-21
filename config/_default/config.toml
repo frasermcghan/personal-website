@@ -1,6 +1,7 @@
-#baseURL = "https://example.com"
+baseURL = "https://frasermcghan.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
+publishDir = "docs"
 
 title = "I'm Fraser McGhan"
 author = "Fraser McGhan"
