@@ -1,0 +1,29 @@
+ #[[main]]
+ #name = "Posts"
+ #identifier = "home"
+ #weight = 100
+ #url = "/"
+
+ #[[main]]
+ #name = "Archive"
+ #weight = 200
+ #identifier = "posts"
+ #url = "/post/"
+
+ #[[main]]
+ #name = "Projects"
+ #weight = 300
+ #identifier = "projects"
+ #url = "/projects/"
+
+ #[[main]]
+ #name = "Publications"
+ #weight = 400
+ #identifier = "publications"
+ #url = "/publications/"
+
+#[[main]]
+#name = "About"
+#identifier = "about"
+#weight = 500
+#url = "/about/"

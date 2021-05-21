@@ -1,0 +1,58 @@
+#baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+
+title = "I'm Fraser McGhan"
+author = "Fraser McGhan"
+theme = "anatole"
+description = "This is my personal website."
+profilePicture = "images/profile.jpg"
+
+mainSections = []
+# Change this back when more content
+#mainSections = ["post"]
+disableThemeSwitcher = true
+
+singleDateFormat = "2/1/2006"
+indexDateFormat = "2/1/2006"
+listDateFormat = "2/1/2006"
+
+readMore = true
+#postSectionName = "post"
+
+
+## Math settings
+[math]
+enable = true  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/fraser-mcghan-136ab0153"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/frasermcghan/"
+
+[[socialIcons]]
+icon = "fas fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/fraser_mcghan"
+
+[[socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:fwm1998@gmail.com"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
